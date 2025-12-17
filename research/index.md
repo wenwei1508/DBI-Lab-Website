@@ -17,4 +17,4 @@ Our lab mainly focused on following research areas: Digital Phenotyping, Health 
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" filter="chew-jocelyn: true" style="rich" %}
+{% include list.html data="citations" component="citation" filter="chew-jocelyn:true" style="rich" %}
