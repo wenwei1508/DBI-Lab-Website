@@ -1,7 +1,7 @@
 ---
 name: Wang Shijie
 image: images/photo.jpg
-role: RA
+role: ra
 group: alum
 links:
   github: john-doe
