@@ -56,4 +56,10 @@
       {% endif %}
     {% endfor %}
   </nav>
+
+  {% if page.url == "/" %}
+    <div class="home-profile" aria-label="Principal Investigator">
+      {% include portrait.html lookup="chew-jocelyn" %}
+    </div>
+  {% endif %}
 </header>
