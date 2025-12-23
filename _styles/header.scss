@@ -146,16 +146,18 @@ header[data-big] {
   // Responsive homepage logo width (logo.png is rectangular).
   // Tune this to control how large the DBI Lab logo appears.
   --home-logo-w: clamp(220px, 20vw, 320px);
+  // Keep the banner content truly centered even when the PI profile is present.
+  --home-profile-w: 260px;
 
   // Desktop layout: title/nav centered, PI profile on the right.
   display: grid;
-  // Use 3 columns so the center content stays truly centered on the page,
-  // while the PI profile occupies the right column.
-  grid-template-columns: 1fr auto 1fr;
+  // Use symmetric left/right columns. The left one is an invisible spacer
+  // matching the PI profile width, so the center column does not shift.
+  grid-template-columns: var(--home-profile-w) auto var(--home-profile-w);
   grid-template-rows: auto auto;
   grid-template-areas:
-    ". home profile"
-    ". nav  profile";
+    "spacer home profile"
+    "spacer nav  profile";
   column-gap: 40px;
   row-gap: 18px;
   justify-content: center;
@@ -164,6 +166,13 @@ header[data-big] {
 
   @if $sticky {
     top: unset;
+  }
+
+  .home-profile-spacer {
+    grid-area: spacer;
+    width: var(--home-profile-w);
+    height: 1px;
+    visibility: hidden;
   }
 
   .home {
@@ -230,7 +239,7 @@ header[data-big] {
     grid-area: profile;
     justify-self: end;
     align-self: center;
-    max-width: 260px;
+    max-width: var(--home-profile-w);
   }
 
   // Tighten the portrait component spacing inside the header.
@@ -257,6 +266,10 @@ header[data-big] {
     .home-profile {
       justify-self: center;
       max-width: 320px;
+    }
+
+    .home-profile-spacer {
+      display: none;
     }
   }
 }
