@@ -179,10 +179,12 @@ header[data-big] {
     // Keep the title/subtitle perfectly centered on the page while
     // placing the logo to its left (and an invisible spacer to the right).
     display: grid;
-    grid-template-columns: var(--home-logo-w) auto var(--home-logo-w);
+    // Use `max-content` so the title stays in one row on desktop.
+    grid-template-columns: var(--home-logo-w) max-content var(--home-logo-w);
     align-items: center;
     justify-items: center;
-    column-gap: 18px;
+    // More space between logo and banner title.
+    column-gap: clamp(24px, 3vw, 60px);
     flex-grow: 0;
     grid-area: home;
     justify-self: center;
