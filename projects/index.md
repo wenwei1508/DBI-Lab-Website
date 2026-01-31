@@ -7,8 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+DBI Lab leads and collaborates on interdisciplinary projects spanning digital weight management, cardiometabolic health, body image and weight stigma.
+Our projects range from observational trials, randomized controlled trials, implementation studies to the co-design and evaluation of digital health tools deployed in healthcare systems and communities.
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -16,12 +16,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Featured
+## Ongoing
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html component="card" data="projects" filter="group == 'ongoing'" %}
 
 {% include section.html %}
 
-## More
+## Closed
 
+{% include list.html component="card" data="projects" filter="group == 'Closed'" style="small" %}
+
+## More
 {% include list.html component="card" data="projects" filter="!group" style="small" %}

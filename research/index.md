@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Our lab mainly focused on following research areas: Digital Phenotyping, Health behaviours, Obesity and eating disorders, Cardiometabolic health and so on. 
+Our research examines how people make health decisions in daily life and how digital technologies can support sustained behaviour change. Key areas include obesity and cardiometabolic disease prevention, self-regulation and motivation, digital phenotyping, just-in-time adaptive interventions (JITAI), and the implementation of AI-enabled health solutions. We combine behavioral theory, clinical data, and advanced analytics to generate evidence that is both scientifically rigorous and clinically actionable.
 
 {% include section.html %}
 

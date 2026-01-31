@@ -3,7 +3,8 @@
 
 # DBI Lab's Website
 
-A brief description of DBI Lab: what our main tasks are and what we aim to do to improve or enhance human's life.
+## Brief description of DBI Lab: 
+DBI Lab is a translational research lab based at the National University of Singapore that integrates behavioral science, digital health, and artificial intelligence to improve cardiometabolic health and population well-being.The lab focuses on working in multidisciplinary teams to develop, evaluate, and implement theory-driven, data-enabled interventions that bridge the intention–behaviour gap in real-world healthcare and community settings.
 
 {% include section.html %}
 
@@ -11,7 +12,7 @@ A brief description of DBI Lab: what our main tasks are and what we aim to do to
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research examines how people make health decisions in daily life and how digital technologies can support sustained behaviour change. Key areas include obesity and cardiometabolic disease prevention, self-regulation and motivation, digital phenotyping, just-in-time adaptive interventions (JITAI), and the implementation of AI-enabled health solutions. We combine behavioral theory, clinical data, and advanced analytics to generate evidence that is both scientifically rigorous and clinically actionable.
 
 {%
   include button.html
@@ -34,7 +35,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+DBI Lab leads and collaborates on interdisciplinary projects spanning digital weight management, cardiometabolic health, body image and weight stigma.
+Our projects range from observational trials, randomized controlled trials, implementation studies to the co-design and evaluation of digital health tools deployed in healthcare systems and communities.
 
 {%
   include button.html
