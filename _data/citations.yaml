@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1155/jonm/2199578
+  title: "Self\u2010Regulation of Healthy Lifestyles in the Nursing Workplace: A Mixed\u2010\
+    Method Evaluation"
+  authors:
+  - John Christopher Lambino Navarro
+  - Siti Zubaidah Mordiffi
+  - Sky Wei Chee Koh
+  - Han Shi Jocelyn Chew
+  publisher: Journal of Nursing Management
+  date: '2026-01-01'
+  link: https://doi.org/hbkdqx
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.2196/76625
   title: 'Just-In-Time Adaptive Interventions for Weight Management Among Adults With
     Excess Body Weight: Scoping Review'
