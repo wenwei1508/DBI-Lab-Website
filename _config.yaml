@@ -9,11 +9,9 @@ proofer: false
 # site social media and other links, needs to be changed accordingly.
 links:
   email: dbi-lab@nus.edu.sg
-  orcid: 
-  google-scholar: 
-  github: 
-  twitter: 
-  youtube: 
+  orcid: 0000-0002-4209-1647
+  google-scholar: https://scholar.google.com/citations?user=Pw7AkzYAAAAJ&hl=en 
+   
 
 ### jekyll settings
 

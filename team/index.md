@@ -16,6 +16,8 @@ Following are main members in our research lab.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+{% comment %}
+
 Some other contributors/visiting students: 
 
 {% include section.html %}
@@ -29,3 +31,4 @@ Some other contributors/visiting students:
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+{% endcomment %}
