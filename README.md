@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # Lukapeng77's Website
+  # DBIlab's Website
 
   Visit **[dbilab.github.io/DBI-Lab-Website](https://dbilab.github.io/DBI-Lab-Website)** 🚀
 
