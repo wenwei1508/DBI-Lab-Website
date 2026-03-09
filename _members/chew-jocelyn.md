@@ -11,3 +11,5 @@ links:
   email: jocelyn.chew.hs@nus.edu.sg
   orcid: 0000-0002-4209-1647
 ---
+
+I am an Assistant Professor and Clinician Scientist at the National University of Singapore. I study the use of digital phenotyping—integrating data from wearables, mobile technologies, and clinical biomarkers—to identify early behavioral and metabolic signals of cardiometabolic risk. By combining behavioral science, biomedical informatics, and preventive cardiology, I develop digital health interventions that help detect risk earlier and support sustainable behavior change. Outside of work, I enjoy spending time with my family and going on simple family outings together.
