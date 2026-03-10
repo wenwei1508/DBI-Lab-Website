@@ -5,8 +5,7 @@
   description: >-
     Improving weight loss in healthy adults with overweight and obesity: An artificial intelligence-assisted dietary prediction and prevention system with continuous glucose monitoring.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
+
 
 - title: Lighter-Mets
   group: Ongoing
@@ -14,30 +13,34 @@
   link: https://nus.syd1.qualtrics.com/jfe/form/SV_3xzkqZstTLtZesK
   description: Lifestyle intervention for gentle, healthy transformation and eating-regulation for individuals with metabolic syndrome.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
+ 
 
 - title: Weight Stigma
   group: Ongoing
-  image: images/photo.jpg
+  image: images/Posters/WeightStigma_photo.jpg
   link: https://nus.syd1.qualtrics.com/jfe/form/SV_1XHV3GPCvb8d8Ro
   description: >-
     Understanding Body Image, Weight Stigma and Professional Identity among Healthcare Students and Staff: A Cross-Sectional Study​ .
   repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+  
 
 - title: Social Comparison
   group: Ongoing
-  image: images/photo.jpg
+  image: images/Posters/SocialComparison_photo.jpg
   link: https://forms.gle/Rew6brmot3iK1oJE8
   description: >-
     The Effect of Social Comparison Direction on Daily Calorie Intake: A Randomized Crossover Trial Study.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+  
+
+- title: LDL-C
+  group: Ongoing
+  image: images/Posters/LDLC_photo.jpg
+  link: https://nus.syd1.qualtrics.com/jfe/form/SV_4N2FVM4XXTHDPkq
+  description: >-
+    Improving LDL-C levels through temporal self-regulation theory-based, personality-tailored health messages: A Three-Arm Randomized Controlled Trial
+  repo: greenelab/lab-website-template
+  
 
 - title: Cool Web Server
   image: images/photo.jpg
